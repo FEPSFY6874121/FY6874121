@@ -142,6 +142,46 @@
   </pre>
   </p>
 
+  <video src="ENG0018 Presentation.mp4" width="800" height="450" controls>
+  </video>
+
+
+
+  <div id="last-updated">Loading last update time...</div>
+
+  <button onclick="verifyLastUpdatedTime()" style="display: block; margin:10px auto; padding:8px 16px;">
+   Verify Last Modified Time
+  </button>
+
+  <script>
+   async function getLastUpdatedTime() {
+    const username = 'ac03154' ;
+    const repo = 'FY03154';
+
+    const url = 'https://api.github.com/repos/${username}/${repo}/commits';
+
+    try{
+     const response = await fetch(url, {
+      method: 'GET',
+      headers: {
+         'Accept': 'application/vnd.github.v3+json',
+        }
+     });
+
+     if(!response.ok){
+      throw new Error('Error fetching data: ${response.status} - ${response.statusText}');
+     }
+
+     const commits = await response.json();
+     if(commits && commits.length > 0) {
+      const lastCommitDate = new Date(commits[0].commit.commiter.date);
+
+      //Displaying the time on load
+      document.getElementById('last-updated').innerText = 'Last Modified Time: $(lastCommitDate.toLoacaleString()}`;
+     } else {
+      document.get
+     
+  </script>
    
     
      
