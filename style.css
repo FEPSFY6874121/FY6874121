@@ -68,7 +68,6 @@ header .navbar {
 .abstract-section {
   min-height: 100vh;
   background:#b5e2ff;
-  margin-top: 50px;
 }
 
 .abstract-section .section-content {
@@ -95,4 +94,6 @@ header .navbar {
   max-width: 100px;
   margin-left: 30px;
 }
-  
+
+
+
