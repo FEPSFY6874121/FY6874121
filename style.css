@@ -45,9 +45,6 @@ button {
 
 /* navbar styling */
 header {
-  position: fixed;
-  width: 100%
-  z-index: 5;
   background-color: #b5e2ff;
   padding: 10px;
 }
