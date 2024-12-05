@@ -51,7 +51,6 @@ header {
   position: sticky;
   top: 0; 
   width: 100%;
- 
 }
 
 header .navbar {
@@ -94,13 +93,18 @@ header .navbar {
   justify-content: space-between;
 }
 
-.abstract-section .abstract-details .description {
+.abstract-section .abstract-details {
   max-width: 70%;
   margin: 24px 0 40px;
   font-size: 20px;
 }
 
 .abstract-section .abstract-image-wrapper {
-  max-width: 500px;
+  max-width: 200px; /* Make the image smaller */
   margin-right: 30px;
+}
+
+.abstract-section .abstract-image-wrapper img {
+  width: 100%;  /* Image will now take up the full width of its container */
+  height: auto; /* Maintain the aspect ratio */
 }
