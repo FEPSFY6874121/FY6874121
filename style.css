@@ -68,3 +68,14 @@ header .navbar {
   background: #ffffff;
 }
 
+/*abstract*/
+.abstract-section {
+  padding: 100px 0;
+  background: #ffffff;
+}
+.abstract-section .section-content {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
