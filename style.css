@@ -17,7 +17,7 @@ a{
 
 button {
   cursor: pointer;
-  bordeer: none;
+  border: none;
   background: none;
 }
 
@@ -26,9 +26,9 @@ header {
 }
 
 .navbar .nav-logo .logo-text {
-  color: var(#ffffff);
+  color: #ffffff;
 }
 
 .navbar .nav-menu .nav-link {
-  color: var(#ffffff);
+  color: #ffffff;
 }
