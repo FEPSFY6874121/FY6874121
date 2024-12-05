@@ -48,6 +48,10 @@ button {
 header {
   background-color: #b5e2ff;
   padding: 10px;
+  position: sticky;
+  top: 0; 
+  width: 100%;
+ 
 }
 
 header .navbar {
