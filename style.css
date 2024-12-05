@@ -7,11 +7,42 @@
   font-family: "Poppins", sans-serif;
 }
 
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
 /* navbar styling */
 header {
-  background-color: #b5e2ff;
+  background: #b5e2ff;
   padding: 10px;
 }
 
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.navbar .nav-link .nav-text {
+  color: #ffffff;
+}
+
+.navbar .nav-menu {
+ display: flex;
+ gap: 10px;
+}
+
+.navbar .nav-menu .nav-link {
+  color: #ffffff;
+}
  
