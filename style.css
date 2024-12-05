@@ -101,7 +101,7 @@ header .nav-menu .nav-link:hover {
 }
 
 .abstract-section .abstract-image-wrapper {
-  max-width: 400px; /* Make the image smaller */
+  max-width: 200px; /* Make the image smaller */
   margin-right: 30px;
 
   .abstract-section .abstract-image-wrapper .abstract-image {
