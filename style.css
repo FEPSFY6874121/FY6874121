@@ -61,5 +61,9 @@ header .navbar {
   font-size: 10px;
   background: #ffffff;
   border-radius: 10px;
+  transition: 0.3s ease;
 }
+.navbar .nav-menu .nav-link:hover {
+  color: #b5e2ff;
+  background: #ffffff;
 }
