@@ -36,6 +36,7 @@ font-size: 20px;
   margin: 10px auto 0;
   background: #b5e2ff;
 }
+
 /* navbar styling */
 header {
   position: fixed;
@@ -99,8 +100,15 @@ header .navbar {
 }
 .introduction-section .section-content {
   display: flex;
+  gap: 50px;
   align-items: center;
   justify-content: space-between;
+}
+.introduction-section .introduction-image-wrapper .introduction-image{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 .introduction-section .introduction-details .section-title {
   padding: 0;
