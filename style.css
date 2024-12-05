@@ -48,27 +48,25 @@ header {
   padding: 10px;
 }
 
-header .navbar {
+header .header-container {
   display: flex;
-  padding: 10px;
-  align-items: center;
-  justify-content: space-between;
+  align-items: center; /* Vertically align items */
+  justify-content: space-between; /* Space between banner and navbar */
+  margin: 10px 0;
 }
 
-.abstract-section .abstract-image-wrapper .abstract-image {
-  float: left;
-  margin-right: 20px;
-  max-width: 40px;
-  max-height: 40px;
-  object-fit: cover;
+header .navbar {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.navbar .nav-menu {
+header .nav-menu {
   display: flex;
   gap: 10px;
 }
 
-.navbar .nav-menu .nav-link {
+header .nav-menu .nav-link {
   padding: 8px 12px;
   color: #8fd3fe;
   font-size: 15px;
@@ -76,9 +74,15 @@ header .navbar {
   border-radius: 10px;
   transition: 0.3s ease;
 }
-.navbar .nav-menu .nav-link:hover {
+header .nav-menu .nav-link:hover {
   color: #b5e2ff;
   background: #ffffff;
+}
+
+/* Headings */
+.headings {
+  text-align: center; /* Center align headings */
+  margin-top: 10px; /* Space between banner and headings */
 }
 
 /*abstract*/
@@ -99,3 +103,11 @@ header .navbar {
 .abstract-section .abstract-image-wrapper {
   max-width: 400px; /* Make the image smaller */
   margin-right: 30px;
+
+  .abstract-section .abstract-image-wrapper .abstract-image {
+  float: left;
+  margin-right: 20px;
+  max-width: 40px;
+  max-height: 40px;
+  object-fit: cover;
+}
