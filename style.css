@@ -55,7 +55,7 @@ header .navbar {
   justify-content: space-between;
 }
 
-.about-section .about-image-wrapper .about-image {
+.abstract-section .abstract-image-wrapper .abstract-image {
   float: left;
   margin-right: 20px;
   max-width: 40px;
@@ -90,3 +90,12 @@ header .navbar {
   align-items: center;
   justify-content: space-between;
 }
+.abstract-section .abstract-details {
+  max-width: 70%;
+  margin: 24px 0 40px;
+  font-size: 20px;
+}
+
+.abstract-section .abstract-image-wrapper {
+  max-width: 200px; /* Make the image smaller */
+  margin-right: 30px;
