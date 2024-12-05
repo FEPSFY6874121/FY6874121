@@ -21,8 +21,9 @@ button {
   background: none;
 }
 
+/* navbar styling */
 header {
-  background-color: #b5e2ff;
+  background-color: red;
 }
 
 .navbar .nav-logo .logo-text {
