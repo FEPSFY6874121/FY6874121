@@ -122,26 +122,30 @@ header .navbar {
   text-align: center;
   font-size: 20px;
 }
+.analysis-section {
+  padding: 120px 0;
+  background: #ffffff;
+}
+.analysis-section .section-content {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.analysis-section .analysis-details .section-title {
+  padding: 0;
+}
+.analysis-section .analysis-details {
+  max-width: 50%;
+}
+.analysis-section .analysis-details .text {
+  line-height: 30px;
+  margin: 50px 0 30px;
+  text-align: center;
+  font-size: 20px;
+}
 
-<style>
-       /* Table styling */
-      table {
-        font-family: poppins, sans-serif;
-        border-collapse: collapse;
-        width: 20%;
-      }
 
-      td, th {
-        border: 1px solid #b5e2ff;
-        text-align: left;
-        padding: 8px;
-      }
-
-      tr:nth-child(even) {
-        background-color: #b5e2ffe;
-      }
-
-</style>
 
 
 
