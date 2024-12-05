@@ -93,9 +93,9 @@ header .navbar {
 .abstract-section .abstract-details {
   max-width: 70%;
   margin: 24px 0 40px;
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .abstract-section .abstract-image-wrapper {
-  max-width: 200px; /* Make the image smaller */
+  max-width: 400px; /* Make the image smaller */
   margin-right: 30px;
