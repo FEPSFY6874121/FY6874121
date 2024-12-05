@@ -94,7 +94,6 @@ header .navbar {
   width: 400px;
   height: 400px;
   object-fit: cover;
-  border-radius: 50%;
 }
 .abstract-section .abstract-details .section-title {
   padding: 0;
