@@ -6,27 +6,36 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 ul{
   list-style: none;
 }
-
 a{
   text-decoration: none;
 }
-
 button{
   cursor: pointer;
   border: none;
   background: none;
 }
-
 .section-content {
   margin: 0 auto;
   padding: 0 20px;
   max-width: 100%;
 }
-
+.section-title {
+text-align: center;
+padding: 60px 0 100px;
+text-transform: uppercase;
+font-size: 20px;
+}
+.section-title::after {
+  content: "";
+  width: 80px;
+  height: 5px;
+  display: block;
+  margin: 10px auto 0;
+  background: #b5e2ff;
+}
 /* navbar styling */
 header {
   position: fixed;
@@ -34,24 +43,20 @@ header {
   z-index: 5;
   background-color: #b5e2ff;
 }
-
 header .navbar {
   display: flex;
   padding: 20px;
   align-items: center;
   justify-content: space-between;
 }
-
 .navbar .nav-link .nav-text {
   color: #ffffff;
   font-size: 40px
 }
-
 .navbar .nav-menu {
  display: flex;
  gap: 10px;
 }
-
 .navbar .nav-menu .nav-link {
   padding: 10px 18px;
   color: #0f52ba;
@@ -59,17 +64,14 @@ header .navbar {
   border-radius: 10px;
   transition: 0.3s ease
 }
-
 .navbar .nav-menu .nav-link:hover {
   color: #0f52ba;
   background-color: #ffffff
 }
-
 .abstract-section {
   min-height: 100vh;
   background:#b5e2ff;
 }
-
 .abstract-section .section-content {
   display: flex;
   align-items: center;
@@ -77,35 +79,38 @@ header .navbar {
   color: #ffffff
   justify-content: space-between;
 }
-
 .abstract-section .abstract-details .title {
   font-size: 20px;
   color: #ffffff
   font-family: "Verdana", sans-serif; 
 }
-
 .abstract-section .abstract-details .description {
     max-width: 70%;
     margin: 24px 0 40px;
     font-size: 10px;
 }
-
 .abstract-section .abstract-image-wrapper {
   max-width: 100px;
   margin-left: 30px;
 }
-
 .introduction-section {
   padding: 120px 0;
   background: #daf0ff;
 }
-
 .introduction-section .section-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
+.introduction-section .introduction-details .section-title {
+  padding: 0;
+}
+.introduction-section .introduction-details .text {
+  line-height: 30px;
+  margin: 50px 0 30px;
+  text-align: center;
+  font-size: 10px;
+}
 
 
 
