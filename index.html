@@ -19,20 +19,30 @@ body {
   margin:0;
 }
       /* Navigation bar styling */
-      {
+     <style>
+      ul {
+        list-style-type: none;
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
-        font-family: "Poppins", sans-serif;
-      }
-      
-      header{
-        background: var(#b5e2ff);
-      }
-      .navbar .nav-menu .navlink {
-        color: var(#ffffff);
+        overflow: hidden;
+        background-color: #333;
       }
 
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
 
       /* Table styling */
       table {
