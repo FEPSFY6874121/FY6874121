@@ -11,3 +11,10 @@ header {
   background: var(#b5e2ff);
 }
 
+.navbar .nav-logo .logo-text {
+  color: var(#ffffff);
+}
+
+.navbar .nav-menu .nav-link {
+  color: var(#ffffff);
+}
