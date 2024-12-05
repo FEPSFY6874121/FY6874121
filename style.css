@@ -48,10 +48,10 @@ button {
 header {
   background-color: #b5e2ff;
   padding: 10px;
-  margin: 0;
   position: sticky;
   top: 0; 
   width: 100%;
+ 
 }
 
 header .navbar {
@@ -94,18 +94,13 @@ header .navbar {
   justify-content: space-between;
 }
 
-.abstract-section .abstract-details {
+.abstract-section .abstract-details .description {
   max-width: 70%;
   margin: 24px 0 40px;
   font-size: 20px;
 }
 
 .abstract-section .abstract-image-wrapper {
-  max-width: 200px; /* Make the image smaller */
+  max-width: 200px;
   margin-right: 30px;
-}
-
-.abstract-section .abstract-image-wrapper img {
-  width: 100%;  /* Image will now take up the full width of its container */
-  height: auto; /* Maintain the aspect ratio */
 }
