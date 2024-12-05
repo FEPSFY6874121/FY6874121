@@ -8,8 +8,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-
-
 ul {
   list-style: none;
 }
@@ -41,6 +39,7 @@ button {
   height:50px
   display:block;
   margin: 10px;
+  border-radius: 5px;
   background: #b5e2ff;
 }
 
@@ -55,6 +54,13 @@ header .navbar {
   padding: 10px;
   align-items: center;
   justify-content: space-between;
+}
+
+.about-section .about-image-wrapper .about-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%
 }
 
 .navbar .nav-menu {
