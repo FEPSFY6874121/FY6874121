@@ -47,10 +47,6 @@ header .navbar {
   justify-content: space-between;
 }
 
-.navbar .nav-logo .logo-text {
-  color: #ffffff;
-}
-
 .navbar .nav-menu {
   display: flex;
   gap: 10px;
