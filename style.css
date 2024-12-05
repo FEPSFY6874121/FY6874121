@@ -136,7 +136,7 @@ header .navbar {
   padding: 0;
 }
 .analysis-section .analysis-details {
-  max-width: 50%;
+  max-width: 90%;
 }
 .analysis-section .analysis-details .text {
   line-height: 30px;
