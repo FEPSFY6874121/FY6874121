@@ -123,7 +123,25 @@ header .navbar {
   font-size: 20px;
 }
 
+<style>
+       /* Table styling */
+      table {
+        font-family: poppins, sans-serif;
+        border-collapse: collapse;
+        width: 20%;
+      }
 
+      td, th {
+        border: 1px solid #b5e2ff;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #b5e2ffe;
+      }
+
+</style>
 
 
 
