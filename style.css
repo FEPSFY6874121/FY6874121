@@ -13,7 +13,7 @@ ul li ul.dropdown li {
 display: block;
 }
 ul li ul.dropdown {
-  width: 100%
+  width: 100%;
   background: #b5e2ff;
   position: absolute;
   z-index: 999;
@@ -138,7 +138,7 @@ header .navbar {
 }
 .analysis-section {
   padding: 120px 0;
-  background: #8fd3fe;
+  background: #d1e5f4;
 }
 .analysis-section .section-content {
   display: flex;
