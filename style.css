@@ -29,8 +29,10 @@ button{
 
 /* navbar styling */
 header {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
   background-color: #b5e2ff;
-  padding: 10px;
 }
 
 header .navbar {
@@ -76,4 +78,9 @@ header .navbar {
   justify-content: space-between;
 }
 
+.abstract-section .abstract-details .title {
+  font-size: 20px
+  color: #ffffff
+  font-family: "Verdana", sans-serif; 
+}
 
