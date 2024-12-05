@@ -36,7 +36,7 @@ header .navbar {
 
 .navbar .nav-link .nav-text {
   color: #ffffff;
-  font-size: 10px
+  font-size: 20px
 }
 
 .navbar .nav-menu {
@@ -46,13 +46,13 @@ header .navbar {
 
 .navbar .nav-menu .nav-link {
   padding: 10px 18px;
-  color: #45b6fe;
+  color: #ffffff;
   font-size: 10px
   border-radius: 10px;
   transition: 0.3s ease
 }
 
 .navbar .nav-menu .nav-link:hover {
-  color: #45b6fe;
-  background-color: #ffffff
+  color: #ffffff;
+  background-color: #45b6fe
 }
