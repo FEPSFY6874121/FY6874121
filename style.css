@@ -40,12 +40,12 @@ button {
 /* navbar styling */
 header {
   background-color: #b5e2ff;
-  padding: 20px;
+  padding: 10px;
 }
 
 header .navbar {
   display: flex;
-  padding: 20px;
+  padding: 10px;
   align-items: center;
   justify-content: space-between;
 }
@@ -56,9 +56,9 @@ header .navbar {
 }
 
 .navbar .nav-menu .nav-link {
-  padding: 5px 9px;
+  padding: 8px 12px;
   color: #b5e2ff;
-  font-size: 10px;
+  font-size: 15px;
   background: #ffffff;
   border-radius: 10px;
   transition: 0.3s ease;
