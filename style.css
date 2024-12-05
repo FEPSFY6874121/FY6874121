@@ -41,8 +41,19 @@ header {
   padding: 20px;
 }
 
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .navbar .nav-logo .logo-text {
   color: #ffffff;
+}
+
+.navbar .nav-menu {
+  display: flex;
+  gap: 10px;
 }
 
 .navbar .nav-menu .nav-link {
