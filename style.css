@@ -95,5 +95,20 @@ header .navbar {
   margin-left: 30px;
 }
 
+.introduction-section {
+  padding: 120px 0;
+  background: #daf0ff;
+}
+
+.introduction-section .section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
 
 
