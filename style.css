@@ -62,3 +62,18 @@ header .navbar {
   color: #0f52ba;
   background-color: #ffffff
 }
+
+.abstract-section {
+  min-height: 100vh;
+  background:#b5e2ff;
+}
+
+.abstract-section .section-content {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  color: #ffffff
+  justify-content: space-between;
+}
+
+
