@@ -80,6 +80,38 @@ header .navbar {
   color: #0f52ba;
   background-color: #ffffff
 }
+/* Dropdown menu styles */
+.nav-item {
+  position: relative; /* Ensures the dropdown is positioned relative to this item */
+}
+
+ul.dropdown {
+  display: none; /* Initially hidden */
+  position: absolute; /* Positions it below the parent menu item */
+  background-color: #f1f1f1;
+  list-style: none;
+  padding: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1; /* Ensures dropdown is above other content */
+}
+
+.nav-item:hover .dropdown {
+  display: block; /* Shows the dropdown when hovering over the parent */
+}
+
+.dropdown li {
+  padding: 8px;
+}
+
+.dropdown li a {
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown li a:hover {
+  background-color: #ddd;
+}
+
 .abstract-section {
   padding: 120px 0;
   background: b5e2ff;
