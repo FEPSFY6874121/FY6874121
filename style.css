@@ -66,7 +66,7 @@ header .navbar {
   transition: 0.3s ease
 }
 .navbar .nav-menu .nav-link:hover {
-  color: #0f52ba;
+  color: #ffffff;
   background-color: #ffffff
 }
 
@@ -81,11 +81,6 @@ header .navbar {
   margin-left: 8px; /* Space between the text and the arrow */
   font-size: 18px;  /* Adjust the size of the arrow */
   transition: transform 0.3s ease; /* Optional: Smooth transition for rotating the arrow */
-}
-
-/* Optional: Rotate the arrow when hovering over "Analysis" */
-.nav-item:hover .arrow {
-  transform: rotate(180deg); /* Rotates the arrow to indicate dropdown */
 }
 
 /* Dropdown menu styles */
