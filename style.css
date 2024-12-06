@@ -170,7 +170,7 @@ ul.dropdown {
 }
 .analysis-section {
   padding: 120px 0;
-  background: #d8f9ff;
+  background: #dff2ff;
 }
 .analysis-section .section-content {
   display: flex;
@@ -192,7 +192,7 @@ ul.dropdown {
 }
 .references-section {
   padding: 120px 0;
-  background: #d8f9ff;
+  background: #ffffff;
 }
 .references-section .section-content {
   display: flex;
@@ -203,7 +203,6 @@ ul.dropdown {
 .references-section .references-details .section-title {
   padding: 0;
 }
-
 
 
 
