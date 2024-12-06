@@ -219,5 +219,8 @@ ul.dropdown {
   padding: 0;
 }
 
-
+ol {
+  padding: 10px;
+  font-size: 15px;
+}
 
