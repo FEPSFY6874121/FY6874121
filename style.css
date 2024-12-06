@@ -122,20 +122,6 @@ ul.dropdown {
   align-items: center;
   justify-content: space-between;
 }
-.analysis-section h1, .analysis-section h2, .analysis-section h3 {
-  text-align: center; 
-}
-.analysis-section p {
-  text-align: center; /* Centers all text inside paragraph tags */
-  line-height: 30px; /* Adds spacing between lines */
-  margin: 20px 0; /* Adds space between paragraphs */
-  font-size: 20px; /* Adjust font size */
-}
-.analysis-section h3 {
-  font-size: 24px; /* Example: Set font size for sub-headings */
-  text-align: center;
-  margin: 20px 0;
-}
 .abstract-section .abstract-image-wrapper .abstract-image{
   width: 400px;
   height: 400px;
@@ -191,6 +177,20 @@ ul.dropdown {
   gap: 50px;
   align-items: center;
   justify-content: space-between;
+}
+.analysis-section h1, .analysis-section h2, .analysis-section h3 {
+  text-align: center; 
+}
+.analysis-section p {
+  text-align: center; /* Centers all text inside paragraph tags */
+  line-height: 30px; /* Adds spacing between lines */
+  margin: 20px 0; /* Adds space between paragraphs */
+  font-size: 20px; /* Adjust font size */
+}
+.analysis-section h3 {
+  font-size: 24px; /* Example: Set font size for sub-headings */
+  text-align: center;
+  margin: 20px 0;
 }
 .analysis-section .analysis-details .section-title {
   padding: 0;
