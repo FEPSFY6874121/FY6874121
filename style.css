@@ -9,17 +9,6 @@
 ul{
   list-style: none;
 }
-ul li ul.dropdown li {
-display: block;
-}
-ul li ul.dropdown {
-  width: 100%;
-  background: #b5e2ff;
-  position: absolute;
-  z-index: 999;
-  display: none;
-}
-
 a{
   text-decoration: none;
 }
@@ -94,28 +83,33 @@ ul.dropdown {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1; /* Ensures dropdown is above other content */
 }
-
 .nav-item:hover .dropdown {
   display: block; /* Shows the dropdown when hovering over the parent */
 }
-
 .dropdown li {
   padding: 8px;
 }
-
 .dropdown li a {
   color: black;
   text-decoration: none;
 }
-
 .dropdown li a:hover {
   background-color: #ddd;
 }
-
+.nav-link::after {
+  content: " ▼"; /* Unicode character for the downwards arrow */
+  font-size: 12px;
+  margin-left: 5px;
+  color: #0f52ba; /* Arrow color */
+}
+.nav-item:hover .nav-link::after {
+  content: " ▲"; /* Rotate the arrow to point up when hovering over the item */
+}
 .abstract-section {
   padding: 120px 0;
   background: b5e2ff;
 }
+
 .abstract-section .section-content {
   display: flex;
   gap: 50px;
