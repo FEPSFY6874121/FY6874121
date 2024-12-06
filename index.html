@@ -55,6 +55,8 @@
       </div>
      </section>
 
+<div id="research">
+      
       <!--Introduction-->
       <section class="introduction-section" id="Introduction">
        <div class="section-content">
@@ -159,7 +161,9 @@
     </div>
   </div>
 </section>
-    
+
+</div>
+  
     <style>
       table {
         font-family: "Poppins", sans-serif;
@@ -331,6 +335,43 @@
   window.onload = displayTotalWordCount;
 </script>
 
+ <div id="wordCountDisplay"></div>
+
+    <script>
+        // Function to calculate word count for a specific section
+        function calculateSectionWordCount(selector) {
+            const section = document.querySelector(selector);
+
+            if (!section) {
+                console.error(`No element found with selector: ${selector}`);
+                return 0;
+            }
+
+            // Get the text content of the section
+            const text = section.innerText || section.textContent;
+
+            // Match words using a regular expression
+            const words = text.match(/\b\w+\b/g);
+
+            // Return the word count (if no words, return 0)
+            return words ? words.length : 0;
+        }
+
+        // Function to display the word count
+        function displaySectionWordCount(selector) {
+            const wordCount = calculateSectionWordCount(selector);
+            const displayElement = document.getElementById('wordCountDisplay');
+            
+            if (displayElement) {
+                displayElement.textContent = `Word Count for this page: ${wordCount}`;
+            }
+        }
+
+        // Run the word count calculation when the page loads
+        window.onload = () => {
+            displaySectionWordCount('#research');
+        };
+        </script>
   
    
     
