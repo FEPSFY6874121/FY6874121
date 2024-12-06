@@ -224,3 +224,11 @@ ol {
   font-size: 15px;
 }
 
+p {
+  text-align: justify;
+  padding: 5px;
+}
+
+h2 {
+  text-align: center;
+}
