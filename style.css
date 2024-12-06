@@ -69,6 +69,25 @@ header .navbar {
   color: #0f52ba;
   background-color: #ffffff
 }
+
+.navbar .nav-link {
+  position: relative; /* Ensure the arrow is positioned relative to the text */
+  display: inline-flex;
+  align-items: center; /* Aligns the arrow and text horizontally */
+}
+
+/* Styling the arrow */
+.navbar .nav-link .arrow {
+  margin-left: 8px; /* Space between the text and the arrow */
+  font-size: 18px;  /* Adjust the size of the arrow */
+  transition: transform 0.3s ease; /* Optional: Smooth transition for rotating the arrow */
+}
+
+/* Optional: Rotate the arrow when hovering over "Analysis" */
+.nav-item:hover .arrow {
+  transform: rotate(180deg); /* Rotates the arrow to indicate dropdown */
+}
+
 /* Dropdown menu styles */
 .nav-item {
   position: relative; /* Ensures the dropdown is positioned relative to this item */
@@ -94,16 +113,7 @@ ul.dropdown {
   text-decoration: none;
 }
 .dropdown li a:hover {
-  background-color: #ddd;
-}
-.nav-link::after {
-  content: " ▼"; /* Unicode character for the downwards arrow */
-  font-size: 12px;
-  margin-left: 5px;
-  color: #0f52ba; /* Arrow color */
-}
-.nav-item:hover .nav-link::after {
-  content: " ▲"; /* Rotate the arrow to point up when hovering over the item */
+  background-color: #0f52ba;
 }
 .abstract-section {
   padding: 120px 0;
