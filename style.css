@@ -174,7 +174,7 @@ ul.dropdown {
 }
 .analysis-section .section-content {
   display: flex;
-  gap: 50px;
+  gap: 80px;
   align-items: center;
   justify-content: space-between;
 }
@@ -185,7 +185,7 @@ ul.dropdown {
   text-align: center; /* Centers all text inside paragraph tags */
   line-height: 30px; /* Adds spacing between lines */
   margin: 20px 0; /* Adds space between paragraphs */
-  font-size: 20px; /* Adjust font size */
+  font-size: 15px; /* Adjust font size */
 }
 .analysis-section h3 {
   font-size: 24px; /* Example: Set font size for sub-headings */
