@@ -51,7 +51,7 @@ header .navbar {
   justify-content: space-between;
 }
 .navbar .nav-link .nav-text {
-  color: #ffffff;
+  color: #0f52ba;
   font-size: 40px
 }
 .navbar .nav-menu {
@@ -189,6 +189,7 @@ ul.dropdown {
   text-align: center;
   font-size: 20px;
 }
+ 
 .references-section {
   padding: 120px 0;
   background: #ffffff;
