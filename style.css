@@ -50,6 +50,7 @@ header {
   width: 100%;
   z-index: 5;
   background-color: #b5e2ff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 header .navbar {
   display: flex;
@@ -122,7 +123,7 @@ ul.dropdown {
 }
 .abstract-section {
   padding: 120px 0;
-  background: #b5e2ff;
+  background: b5e2ff;
 }
 
 .abstract-section .section-content {
