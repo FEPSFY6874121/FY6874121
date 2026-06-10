@@ -1,5 +1,12 @@
 /*import font*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+section, [id] {
+  scroll-margin-top: 90px; /* Adjust this value if your header gets taller/shorter */
+}
 *{
   margin: 0;
   padding: 0;
@@ -61,12 +68,12 @@ header .navbar {
 .navbar .nav-menu .nav-link {
   padding: 10px 18px;
   color: #0f52ba;
-  font-size: 10px
+  font-size: 10px;
   border-radius: 10px;
-  transition: 0.3s ease
+  transition: 0.3s ease;
 }
 .navbar .nav-menu .nav-link:hover {
-  background-color: #ffffff;
+  background-color: #f1f1f1;
 }
 
 .navbar .nav-link:hover .nav-text {
@@ -115,7 +122,7 @@ ul.dropdown {
 }
 .abstract-section {
   padding: 120px 0;
-  background: b5e2ff;
+  background: #b5e2ff;
 }
 
 .abstract-section .section-content {
@@ -179,7 +186,8 @@ ul.dropdown {
   display: flex;
   gap: 80px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
 }
 .analysis-section h1, .analysis-section h2, .analysis-section h3 {
   text-align: center; 
@@ -200,6 +208,7 @@ ul.dropdown {
 }
 .analysis-section .analysis-details {
   max-width: 90%;
+  margin: 0 auto;
 }
 .analysis-section .analysis-details .text {
   line-height: 30px;
