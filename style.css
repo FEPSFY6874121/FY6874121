@@ -66,8 +66,9 @@ header .navbar {
   transition: 0.3s ease
 }
 .navbar .nav-menu .nav-link:hover {
-  color: #ffffff;
-  background-color: #ffffff
+  opacity: 0.0;
+ /* color: #ffffff;
+  background-color: #ffffff*/
 }
 
 .navbar .nav-link {
