@@ -69,9 +69,9 @@ header .navbar {
 .navbar .nav-menu .nav-link {
   padding: 10px 18px;
   color: #0f52ba;
-  font-size: 10px;
+  font-size: 10px
   border-radius: 10px;
-  transition: 0.3s ease;
+  transition: 0.3s ease
 }
 .navbar .nav-menu .nav-link:hover {
   background-color: #f1f1f1;
